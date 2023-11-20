@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "830336815177",
+    "project_id": "stroredatabase",
+    "storage_bucket": "stroredatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830336815177:android:db4193500e529e2de16f98",
+        "android_client_info": {
+          "package_name": "com.example.insert_database"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq7R6oA3SwMVaxTmMByoaKvnM1n77eeKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
