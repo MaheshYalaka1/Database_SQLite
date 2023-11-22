@@ -3,6 +3,8 @@
         android:label="insert_database"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyCBz9S-A7LcQp05PLKNN2NFO8w88tzVqR0"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

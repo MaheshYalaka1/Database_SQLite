@@ -21,9 +21,7 @@ class _placesScreenState extends ConsumerState<PlacesScreen> {
   }
 
   @override
-  Widget build(
-    BuildContext context,
-  ) {
+  Widget build(BuildContext context) {
     final userplaces = ref.watch(userplaceprovider);
 
     return Scaffold(
@@ -48,9 +46,7 @@ class _placesScreenState extends ConsumerState<PlacesScreen> {
           future: _placesFuture,
           builder: (context, snapshot) =>
               snapshot.connectionState == ConnectionState.waiting
-                  ? const Center(
-                      child: CircularProgressIndicator(),
-                    )
+                  ? const Center(child: CircularProgressIndicator())
                   : placesList(places: userplaces),
         ),
       ),
